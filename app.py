@@ -41,7 +41,7 @@ Si une question n'est pas claire pour toi, tu demandes clairement les éléments
 """
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="gemini-3.5-pro",
     system_instruction=system_instruction
 )
 
